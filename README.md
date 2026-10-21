@@ -1,6 +1,6 @@
 # codemorph
 
-[![CI](https://github.com/PayBridgeOne/codemorph/actions/workflows/ci.yml/badge.svg)](https://github.com/PayBridgeOne/codemorph/actions/workflows/ci.yml)
+[![CI](https://github.com/Xilasia/codemorph/actions/workflows/ci.yml/badge.svg)](https://github.com/Xilasia/codemorph/actions/workflows/ci.yml)
 
 C++23 encoding utilities for hexadecimal, byte buffers, ASCII, BCD and EBCDIC, including VISA's EBCDIC variant.
 
@@ -17,7 +17,7 @@ auto decoded = codemorph::bcd_to_ascii(packed, codemorph::FieldPadding::NONE, 4)
 include(FetchContent)
 FetchContent_Declare(
     codemorph
-    GIT_REPOSITORY https://github.com/PayBridgeOne/codemorph.git
+    GIT_REPOSITORY https://github.com/Xilasia/codemorph.git
     GIT_TAG v2.0.0
     GIT_SHALLOW TRUE
 )
