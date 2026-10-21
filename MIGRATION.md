@@ -18,7 +18,7 @@ Rebuild dependent libraries and applications after updating their includes and c
 | Test executable `tests` | `codemorph_tests` |
 | Release tag `v1.1.1` | `v2.0.0`, published after merge |
 
-The repository URL is `https://github.com/PayBridgeOne/codemorph.git`.
+The repository URL is `https://github.com/Xilasia/codemorph.git`.
 The folder and FetchContent name remain `codemorph`.
 The library target, canonical namespaced target and install namespace remain `codemorph`, `codemorph::codemorph` and
 `codemorph::` respectively.
